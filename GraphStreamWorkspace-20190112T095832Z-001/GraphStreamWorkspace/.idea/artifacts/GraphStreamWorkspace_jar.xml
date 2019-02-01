@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GraphStreamWorkspace:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GraphStreamWorkspace_jar</output-path>
+    <root id="archive" name="GraphStreamWorkspace.jar">
+      <element id="module-output" name="GraphStreamWorkspace" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/GraphStream/gs-algo-1.3/gs-algo-1.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/GraphStream/gs-core-1.3/gs-core-1.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
