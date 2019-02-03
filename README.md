@@ -8,6 +8,8 @@
 Projekt aplikacji na Algorytmiczne ujęcie teori Grafów.
 Aplikacja generuje graf i znajduje w nim trójelementowe cykle oraz podświetla je przez zadany czas. 
 
+W projekcie wykorzystano bibliotekę GraphStream: http://graphstream-project.org/
+
 ## Jak uruchomić aplikację?
 
 Aby uruchomić aplikację należy przejść do folderu "Jar from xxx"* i uruchomić w nim consolę (CMD dla Windows) lub terminal (linux, mac) i uruchomić program komendą: 
@@ -29,6 +31,8 @@ Po każdorazowym wygenerowaniu grafu, jego dane* są dopisywane do pliku output.
 
 App project for an algorithmic view of the graphs theory.
 The application generates a graph, finds three-element cycles in it and highlights them for a given time.
+
+The project uses the GraphStream library: http://graphstream-project.org/
 
 ## How to run app?
 
