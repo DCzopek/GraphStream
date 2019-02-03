@@ -48,3 +48,105 @@ Lista wierzcholkow cykli trojelementowych:
 9.: ( B, C, J, )
 10.: ( B, H, I, )
 11.: ( B, I, J, )
+-----------------------------------------
+Autg. Sem.5 | Wyszukiwanie cykli
+
+Zespol: D.Czopek / T.Dziubinski / P.Zajac
+
+Data wygenerowania: Sun Feb 03 14:41:22 CET 2019
+
+Ilość wierzchołków: 10
+Ilość krawędzi: 27
+
+Sasiedzi wierzcholka "A" : D; E; F; H; J; 
+Sasiedzi wierzcholka "B" : E; F; G; I; 
+Sasiedzi wierzcholka "C" : E; J; 
+Sasiedzi wierzcholka "D" : E; F; H; G; I; A; 
+Sasiedzi wierzcholka "E" : D; B; F; H; G; J; C; I; A; 
+Sasiedzi wierzcholka "F" : D; E; B; H; G; J; A; 
+Sasiedzi wierzcholka "G" : D; E; B; F; J; I; 
+Sasiedzi wierzcholka "H" : D; E; F; A; 
+Sasiedzi wierzcholka "I" : D; E; B; G; J; 
+Sasiedzi wierzcholka "J" : E; F; G; C; I; A; 
+
+Macierz sasiedztwa: 
+
+   A  B  C  D  E  F  G  H  I  J  
+  ------------------------------
+A |0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 
+B |0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 
+C |0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+D |1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 
+E |1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 
+F |1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 
+G |0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 
+H |1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 
+I |0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 
+J |1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 
+
+Lista wierzcholkow cykli trojelementowych: 
+
+0.: ( A, D, E, )
+1.: ( A, D, F, )
+2.: ( A, D, H, )
+3.: ( A, E, F, )
+4.: ( A, E, H, )
+5.: ( A, E, J, )
+6.: ( A, F, H, )
+7.: ( A, F, J, )
+8.: ( B, E, F, )
+9.: ( B, E, G, )
+10.: ( B, E, I, )
+11.: ( B, F, G, )
+12.: ( B, G, I, )
+13.: ( C, E, J, )
+14.: ( D, E, F, )
+15.: ( D, E, H, )
+16.: ( D, E, G, )
+17.: ( D, E, I, )
+18.: ( D, F, H, )
+19.: ( D, F, G, )
+20.: ( D, G, I, )
+21.: ( E, F, H, )
+22.: ( E, F, G, )
+23.: ( E, F, J, )
+24.: ( E, G, J, )
+25.: ( E, G, I, )
+26.: ( E, I, J, )
+27.: ( F, G, J, )
+28.: ( G, I, J, )
+-----------------------------------------
+Autg. Sem.5 | Wyszukiwanie cykli
+
+Zespol: D.Czopek / T.Dziubinski / P.Zajac
+
+Data wygenerowania: Sun Feb 03 14:41:25 CET 2019
+
+Ilość wierzchołków: 10
+Ilość krawędzi: 27
+
+Sasiedzi wierzcholka "A" : J; G; B; H; F; 
+Sasiedzi wierzcholka "B" : I; A; H; E; 
+Sasiedzi wierzcholka "C" : J; G; E; F; 
+Sasiedzi wierzcholka "D" : I; J; E; F; 
+Sasiedzi wierzcholka "E" : I; C; D; G; B; H; F; 
+Sasiedzi wierzcholka "F" : I; J; C; A; D; G; H; E; 
+Sasiedzi wierzcholka "G" : J; C; A; E; F; 
+Sasiedzi wierzcholka "H" : I; J; A; B; E; F; 
+Sasiedzi wierzcholka "I" : D; B; H; E; F; 
+Sasiedzi wierzcholka "J" : C; A; D; G; H; F; 
+
+Macierz sasiedztwa: 
+
+   A  B  C  D  E  F  G  H  I  J  
+  ------------------------------
+A |0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 
+B |1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 
+C |0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 
+D |0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 
+E |0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 
+F |1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 
+G |1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 
+H |1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 
+I |0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 
+J |1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 

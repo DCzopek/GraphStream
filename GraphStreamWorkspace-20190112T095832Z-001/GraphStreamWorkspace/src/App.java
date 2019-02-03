@@ -66,13 +66,13 @@ public class App {
 
     }
 
-    private static List<String> getNodesNamesList(int vertexes) {
+    private static List<String> getNodesNamesList(int vertices) {
 
         String auxName;
         Integer alphabetIterator = 0;
         List<String> nodesNames = new ArrayList<>();
 
-        for (int i = 0; i < vertexes; i++) {
+        for (int i = 0; i < vertices; i++) {
             auxName = "";
             if (alphabetIterator == 0)
                 auxName += (char) (i % 26 + 65);
@@ -88,20 +88,20 @@ public class App {
         return nodesNames;
     }
 
-    private static Graph generateSingleGraph(int vertexes, double probability) {
+    private static Graph generateSingleGraph(int vertices, double probability) {
 
         Graph graph = new SingleGraph("Tutor 1");
-        List<String> nodeNames = getNodesNamesList(vertexes);
+        List<String> nodeNames = getNodesNamesList(vertices);
 
-        for (int i = 0; i < vertexes; i++) {
+        for (int i = 0; i < vertices; i++) {
             graph.addNode(nodeNames.get(i));
             graph.getNode(nodeNames.get(i)).setAttribute("ui.label", nodeNames.get(i));
         }
 
-        for (int j = 0; j < vertexes; j++) {
+        for (int j = 0; j < vertices; j++) {
             Random rand = new Random();
 
-            for (int k = 0; k < vertexes; k++) {
+            for (int k = 0; k < vertices; k++) {
 
                 if ((rand.nextDouble() < probability) && (j < k)) {
                     graph.addEdge(nodeNames.get(j) + nodeNames.get(k), nodeNames.get(j), nodeNames.get(k));
@@ -114,18 +114,18 @@ public class App {
         return graph;
     }
 
-    static void displaySimpleGraph(int vertexes, double probability) {
+    static void displaySimpleGraph(int vertices, double probability) {
 
-        Graph graph = generateSingleGraph(vertexes, probability);
+        Graph graph = generateSingleGraph(vertices, probability);
         Viewer viewer = graph.display();
         viewer.setCloseFramePolicy(Viewer.CloseFramePolicy.CLOSE_VIEWER);
         generateOutput(graph);
     }
 
-    static void displayGraphWithCycles(int vertexes, double probability, long highlightingTime) throws InterruptedException {
+    static void displayGraphWithCycles(int vertices, double probability, long highlightingTime) throws InterruptedException {
 
-        Graph graph = generateSingleGraph(vertexes, probability);
-        List<String> nodesNames = getNodesNamesList(vertexes);
+        Graph graph = generateSingleGraph(vertices, probability);
+        List<String> nodesNames = getNodesNamesList(vertices);
         List<List<String>> cycleNodes = new ArrayList<>();
 
         String currentNodeId;
