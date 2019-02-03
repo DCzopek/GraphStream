@@ -1,0 +1,467 @@
+-----------------------------------------
+Autg. Sem.5 | Wyszukiwanie cykli
+
+Zespol: D.Czopek / T.Dziubinski / P.Zajac
+
+Data wygenerowania: Sun Feb 03 12:52:34 CET 2019
+
+Ilość wierzchołków: 10
+Ilość krawędzi: 23
+
+Sasiedzi wierzcholka "A" : E; H; D; 
+Sasiedzi wierzcholka "B" : E; G; J; H; F; 
+Sasiedzi wierzcholka "C" : E; G; J; D; F; 
+Sasiedzi wierzcholka "D" : E; C; J; A; 
+Sasiedzi wierzcholka "E" : G; B; C; J; D; I; A; 
+Sasiedzi wierzcholka "F" : G; B; C; 
+Sasiedzi wierzcholka "G" : E; B; C; J; H; F; 
+Sasiedzi wierzcholka "H" : G; B; J; A; 
+Sasiedzi wierzcholka "I" : E; J; 
+Sasiedzi wierzcholka "J" : E; G; B; C; H; D; I; 
+
+Macierz sasiedztwa: 
+
+   A  B  C  D  E  F  G  H  I  J  
+  ------------------------------
+A |0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 
+B |0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 
+C |0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 
+D |1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 
+E |1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 
+F |0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 
+G |0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 
+H |1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 
+I |0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+J |0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 
+
+Lista wierzcholkow cykli trojelementowych: 
+
+0.: ( A, D, E, )
+1.: ( B, E, G, )
+2.: ( B, E, J, )
+3.: ( B, G, J, )
+4.: ( B, G, H, )
+5.: ( B, F, G, )
+6.: ( B, H, J, )
+7.: ( C, E, G, )
+8.: ( C, E, J, )
+9.: ( C, D, E, )
+10.: ( C, G, J, )
+11.: ( C, F, G, )
+12.: ( C, D, J, )
+13.: ( D, E, J, )
+14.: ( E, G, J, )
+15.: ( E, I, J, )
+16.: ( G, H, J, )
+-----------------------------------------
+Autg. Sem.5 | Wyszukiwanie cykli
+
+Zespol: D.Czopek / T.Dziubinski / P.Zajac
+
+Data wygenerowania: Sun Feb 03 13:23:27 CET 2019
+
+Ilość wierzchołków: 10
+Ilość krawędzi: 25
+
+Sasiedzi wierzcholka "A" : H; F; D; C; 
+Sasiedzi wierzcholka "B" : H; D; E; G; 
+Sasiedzi wierzcholka "C" : H; A; D; E; I; 
+Sasiedzi wierzcholka "D" : H; B; F; A; E; C; I; 
+Sasiedzi wierzcholka "E" : H; B; F; D; C; J; I; 
+Sasiedzi wierzcholka "F" : H; A; D; E; J; 
+Sasiedzi wierzcholka "G" : B; J; 
+Sasiedzi wierzcholka "H" : B; F; A; D; E; C; I; 
+Sasiedzi wierzcholka "I" : H; D; E; C; J; 
+Sasiedzi wierzcholka "J" : F; E; I; G; 
+
+Macierz sasiedztwa: 
+
+   A  B  C  D  E  F  G  H  I  J  
+  ------------------------------
+A |0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 
+B |0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 
+C |1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 
+D |1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 
+E |0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 
+F |1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 
+G |0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 
+H |1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 
+I |0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 
+J |0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 
+
+Lista wierzcholkow cykli trojelementowych: 
+
+0.: ( A, F, H, )
+1.: ( A, D, H, )
+2.: ( A, C, H, )
+3.: ( A, D, F, )
+4.: ( A, C, D, )
+5.: ( B, D, H, )
+6.: ( B, E, H, )
+7.: ( B, D, E, )
+8.: ( C, D, H, )
+9.: ( C, E, H, )
+10.: ( C, H, I, )
+11.: ( C, D, E, )
+12.: ( C, D, I, )
+13.: ( C, E, I, )
+14.: ( D, F, H, )
+15.: ( D, E, H, )
+16.: ( D, H, I, )
+17.: ( D, E, F, )
+18.: ( D, E, I, )
+19.: ( E, F, H, )
+20.: ( E, H, I, )
+21.: ( E, F, J, )
+22.: ( E, I, J, )
+-----------------------------------------
+Autg. Sem.5 | Wyszukiwanie cykli
+
+Zespol: D.Czopek / T.Dziubinski / P.Zajac
+
+Data wygenerowania: Sun Feb 03 13:24:48 CET 2019
+
+Ilość wierzchołków: 10
+Ilość krawędzi: 21
+
+Sasiedzi wierzcholka "A" : B; F; C; D; I; E; 
+Sasiedzi wierzcholka "B" : A; D; H; 
+Sasiedzi wierzcholka "C" : A; D; I; E; 
+Sasiedzi wierzcholka "D" : B; A; F; C; 
+Sasiedzi wierzcholka "E" : A; C; J; H; 
+Sasiedzi wierzcholka "F" : A; D; I; J; H; 
+Sasiedzi wierzcholka "G" : I; J; 
+Sasiedzi wierzcholka "H" : B; F; E; J; 
+Sasiedzi wierzcholka "I" : A; F; C; G; J; 
+Sasiedzi wierzcholka "J" : F; G; I; E; H; 
+
+Macierz sasiedztwa: 
+
+   A  B  C  D  E  F  G  H  I  J  
+  ------------------------------
+A |0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 
+B |1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 
+C |1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 
+D |1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 
+E |1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 
+F |1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 
+G |0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 
+H |0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 
+I |1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 
+J |0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 
+
+Lista wierzcholkow cykli trojelementowych: 
+
+0.: ( A, B, D, )
+1.: ( A, D, F, )
+2.: ( A, F, I, )
+3.: ( A, C, D, )
+4.: ( A, C, I, )
+5.: ( A, C, E, )
+6.: ( E, H, J, )
+7.: ( F, I, J, )
+8.: ( F, H, J, )
+9.: ( G, I, J, )
+-----------------------------------------
+Autg. Sem.5 | Wyszukiwanie cykli
+
+Zespol: D.Czopek / T.Dziubinski / P.Zajac
+
+Data wygenerowania: Sun Feb 03 13:26:55 CET 2019
+
+Ilość wierzchołków: 10
+Ilość krawędzi: 26
+
+Sasiedzi wierzcholka "A" : G; J; F; B; 
+Sasiedzi wierzcholka "B" : G; A; E; H; D; C; 
+Sasiedzi wierzcholka "C" : E; F; H; D; B; 
+Sasiedzi wierzcholka "D" : J; F; H; I; B; C; 
+Sasiedzi wierzcholka "E" : J; B; C; 
+Sasiedzi wierzcholka "F" : G; A; J; H; D; I; C; 
+Sasiedzi wierzcholka "G" : A; J; F; H; I; B; 
+Sasiedzi wierzcholka "H" : G; J; F; D; B; C; 
+Sasiedzi wierzcholka "I" : G; F; D; 
+Sasiedzi wierzcholka "J" : G; A; E; F; H; D; 
+
+Macierz sasiedztwa: 
+
+   A  B  C  D  E  F  G  H  I  J  
+  ------------------------------
+A |0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 
+B |1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 
+C |0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 
+D |0, 1, 1, 0, 0, 1, 0, 1, 1, 1, 
+E |0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 
+F |1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 
+G |1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 
+H |0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 
+I |0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 
+J |1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 
+
+Lista wierzcholkow cykli trojelementowych: 
+
+0.: ( A, G, J, )
+1.: ( A, F, G, )
+2.: ( A, B, G, )
+3.: ( A, F, J, )
+4.: ( B, G, H, )
+5.: ( B, C, E, )
+6.: ( B, D, H, )
+7.: ( B, C, H, )
+8.: ( B, C, D, )
+9.: ( C, F, H, )
+10.: ( C, D, F, )
+11.: ( C, D, H, )
+12.: ( D, F, J, )
+13.: ( D, H, J, )
+14.: ( D, F, H, )
+15.: ( D, F, I, )
+16.: ( F, G, J, )
+17.: ( F, G, H, )
+18.: ( F, G, I, )
+19.: ( F, H, J, )
+20.: ( G, H, J, )
+-----------------------------------------
+Autg. Sem.5 | Wyszukiwanie cykli
+
+Zespol: D.Czopek / T.Dziubinski / P.Zajac
+
+Data wygenerowania: Sun Feb 03 13:29:54 CET 2019
+
+Ilość wierzchołków: 10
+Ilość krawędzi: 27
+
+Sasiedzi wierzcholka "A" : D; E; C; B; I; 
+Sasiedzi wierzcholka "B" : D; A; J; E; C; H; I; 
+Sasiedzi wierzcholka "C" : D; A; E; F; B; I; 
+Sasiedzi wierzcholka "D" : A; J; C; F; G; B; 
+Sasiedzi wierzcholka "E" : A; J; C; F; H; B; I; 
+Sasiedzi wierzcholka "F" : D; E; C; G; 
+Sasiedzi wierzcholka "G" : D; J; F; H; 
+Sasiedzi wierzcholka "H" : E; G; B; I; 
+Sasiedzi wierzcholka "I" : A; J; E; C; H; B; 
+Sasiedzi wierzcholka "J" : D; E; G; B; I; 
+
+Macierz sasiedztwa: 
+
+   A  B  C  D  E  F  G  H  I  J  
+  ------------------------------
+A |0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 
+B |1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 
+C |1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 
+D |1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 
+E |1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 
+F |0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 
+G |0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 
+H |0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 
+I |1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 
+J |0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 
+
+Lista wierzcholkow cykli trojelementowych: 
+
+0.: ( A, C, D, )
+1.: ( A, B, D, )
+2.: ( A, C, E, )
+3.: ( A, B, E, )
+4.: ( A, E, I, )
+5.: ( A, B, C, )
+6.: ( A, C, I, )
+7.: ( A, B, I, )
+8.: ( B, D, J, )
+9.: ( B, C, D, )
+10.: ( B, E, J, )
+11.: ( B, I, J, )
+12.: ( B, C, E, )
+13.: ( B, E, H, )
+14.: ( B, E, I, )
+15.: ( B, C, I, )
+16.: ( B, H, I, )
+17.: ( C, D, F, )
+18.: ( C, E, F, )
+19.: ( C, E, I, )
+20.: ( D, G, J, )
+21.: ( D, F, G, )
+22.: ( E, I, J, )
+23.: ( E, H, I, )
+-----------------------------------------
+Autg. Sem.5 | Wyszukiwanie cykli
+
+Zespol: D.Czopek / T.Dziubinski / P.Zajac
+
+Data wygenerowania: Sun Feb 03 13:30:21 CET 2019
+
+Ilość wierzchołków: 10
+Ilość krawędzi: 28
+
+Sasiedzi wierzcholka "A" : C; E; D; H; J; F; 
+Sasiedzi wierzcholka "B" : C; D; H; J; 
+Sasiedzi wierzcholka "C" : E; D; H; B; J; G; I; A; 
+Sasiedzi wierzcholka "D" : C; E; H; B; J; I; A; 
+Sasiedzi wierzcholka "E" : C; D; F; I; A; 
+Sasiedzi wierzcholka "F" : E; J; G; I; A; 
+Sasiedzi wierzcholka "G" : C; F; I; 
+Sasiedzi wierzcholka "H" : C; D; B; J; I; A; 
+Sasiedzi wierzcholka "I" : C; E; D; H; F; G; 
+Sasiedzi wierzcholka "J" : C; D; H; B; F; A; 
+
+Macierz sasiedztwa: 
+
+   A  B  C  D  E  F  G  H  I  J  
+  ------------------------------
+A |0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 
+B |0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 
+C |1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 
+D |1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 
+E |1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 
+F |1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 
+G |0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 
+H |1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 
+I |0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 
+J |1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 
+-----------------------------------------
+Autg. Sem.5 | Wyszukiwanie cykli
+
+Zespol: D.Czopek / T.Dziubinski / P.Zajac
+
+Data wygenerowania: Sun Feb 03 13:30:27 CET 2019
+
+Ilość wierzchołków: 10
+Ilość krawędzi: 23
+
+Sasiedzi wierzcholka "A" : H; E; D; B; C; G; I; 
+Sasiedzi wierzcholka "B" : E; D; G; J; A; 
+Sasiedzi wierzcholka "C" : H; D; F; G; A; 
+Sasiedzi wierzcholka "D" : B; C; J; A; 
+Sasiedzi wierzcholka "E" : B; I; J; A; 
+Sasiedzi wierzcholka "F" : H; C; J; 
+Sasiedzi wierzcholka "G" : H; B; C; A; 
+Sasiedzi wierzcholka "H" : F; C; G; J; A; 
+Sasiedzi wierzcholka "I" : E; J; A; 
+Sasiedzi wierzcholka "J" : H; E; D; F; B; I; 
+
+Macierz sasiedztwa: 
+
+   A  B  C  D  E  F  G  H  I  J  
+  ------------------------------
+A |0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 
+B |1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 
+C |1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 
+D |1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 
+E |1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 
+F |0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 
+G |1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 
+H |1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 
+I |1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+J |0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 
+
+Lista wierzcholkow cykli trojelementowych: 
+
+0.: ( A, C, H, )
+1.: ( A, G, H, )
+2.: ( A, B, E, )
+3.: ( A, E, I, )
+4.: ( A, B, D, )
+5.: ( A, C, D, )
+6.: ( A, B, G, )
+7.: ( A, C, G, )
+8.: ( B, E, J, )
+9.: ( B, D, J, )
+10.: ( C, F, H, )
+11.: ( C, G, H, )
+12.: ( E, I, J, )
+13.: ( F, H, J, )
+-----------------------------------------
+Autg. Sem.5 | Wyszukiwanie cykli
+
+Zespol: D.Czopek / T.Dziubinski / P.Zajac
+
+Data wygenerowania: Sun Feb 03 13:33:21 CET 2019
+
+Ilość wierzchołków: 10
+Ilość krawędzi: 24
+
+Sasiedzi wierzcholka "A" : H; E; I; G; J; 
+Sasiedzi wierzcholka "B" : C; F; E; I; D; 
+Sasiedzi wierzcholka "C" : F; H; B; J; 
+Sasiedzi wierzcholka "D" : H; B; G; J; 
+Sasiedzi wierzcholka "E" : F; B; A; G; J; 
+Sasiedzi wierzcholka "F" : C; H; E; B; 
+Sasiedzi wierzcholka "G" : H; E; A; D; 
+Sasiedzi wierzcholka "H" : C; F; I; A; D; G; J; 
+Sasiedzi wierzcholka "I" : H; B; A; J; 
+Sasiedzi wierzcholka "J" : C; H; E; I; A; D; 
+
+Macierz sasiedztwa: 
+
+   A  B  C  D  E  F  G  H  I  J  
+  ------------------------------
+A |0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 
+B |0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 
+C |0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 
+D |0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 
+E |1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 
+F |0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 
+G |1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 
+H |1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 
+I |1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 
+J |1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 
+-----------------------------------------
+Autg. Sem.5 | Wyszukiwanie cykli
+
+Zespol: D.Czopek / T.Dziubinski / P.Zajac
+
+Data wygenerowania: Sun Feb 03 13:33:24 CET 2019
+
+Ilość wierzchołków: 10
+Ilość krawędzi: 27
+
+Sasiedzi wierzcholka "A" : G; B; D; H; C; J; I; 
+Sasiedzi wierzcholka "B" : G; A; F; J; 
+Sasiedzi wierzcholka "C" : E; G; D; H; A; F; 
+Sasiedzi wierzcholka "D" : E; C; A; I; 
+Sasiedzi wierzcholka "E" : D; C; F; J; I; 
+Sasiedzi wierzcholka "F" : E; G; B; H; C; I; 
+Sasiedzi wierzcholka "G" : B; H; C; A; F; I; 
+Sasiedzi wierzcholka "H" : G; C; A; F; J; I; 
+Sasiedzi wierzcholka "I" : E; G; D; H; A; F; 
+Sasiedzi wierzcholka "J" : E; B; H; A; 
+
+Macierz sasiedztwa: 
+
+   A  B  C  D  E  F  G  H  I  J  
+  ------------------------------
+A |0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 
+B |1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 
+C |1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 
+D |1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 
+E |0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 
+F |0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 
+G |1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 
+H |1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 
+I |1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 
+J |1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 
+
+Lista wierzcholkow cykli trojelementowych: 
+
+0.: ( A, B, G, )
+1.: ( A, G, H, )
+2.: ( A, C, G, )
+3.: ( A, G, I, )
+4.: ( A, B, J, )
+5.: ( A, C, D, )
+6.: ( A, D, I, )
+7.: ( A, C, H, )
+8.: ( A, H, J, )
+9.: ( A, H, I, )
+10.: ( B, F, G, )
+11.: ( C, D, E, )
+12.: ( C, E, F, )
+13.: ( C, G, H, )
+14.: ( C, F, G, )
+15.: ( C, F, H, )
+16.: ( D, E, I, )
+17.: ( E, F, I, )
+18.: ( F, G, H, )
+19.: ( F, G, I, )
+20.: ( F, H, I, )
+21.: ( G, H, I, )
