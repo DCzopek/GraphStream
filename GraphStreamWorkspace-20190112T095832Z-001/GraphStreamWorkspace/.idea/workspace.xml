@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="GraphStreamWorkspace:jar" />
+      <artifact name="GraphStreamWorkspace:jar2" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03db2287-4882-4771-88e1-2cf0c0d7de9f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/GraphStreamWorkspace_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/GraphStreamWorkspace_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/GraphStreamWorkspace_jar/GraphStreamWorkspace.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GraphStreamWorkspace_jar/GraphStreamWorkspace.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GraphStreamWorkspace/App$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphStreamWorkspace/App$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GraphStreamWorkspace/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphStreamWorkspace/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GraphStreamWorkspace/MainFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphStreamWorkspace/MainFrame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GraphStreamWorkspace/MainFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphStreamWorkspace/MainFrame$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GraphStreamWorkspace/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GraphStreamWorkspace/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainFrame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFrame.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,51 +23,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="112" column="50" selection-start-line="112" selection-start-column="50" selection-end-line="112" selection-end-column="50" />
+            <state relative-caret-position="372">
+              <caret line="248" column="39" lean-forward="true" selection-start-line="248" selection-start-column="39" selection-end-line="248" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#generateOutput#0;class#App#0" />
                 <element signature="method#getNodesNamesList#0;class#App#0" />
                 <element signature="method#displaySimpleGraph#0;class#App#0" />
                 <element signature="method#displayGraphWithCycles#0;class#App#0" />
-                <element signature="method#main#0;class#App#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="289" lean-forward="true" selection-start-column="289" selection-end-column="289" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainFrame.form">
-          <provider selected="true" editor-type-id="ui-designer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -144,6 +98,12 @@
             </path>
             <path>
               <item name="GraphStreamWorkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraphStreamWorkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraphStreamWorkspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -169,7 +129,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="252" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540634956319" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
@@ -253,7 +213,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32995737" />
-      <window_info anchor="right" id="Maven" order="8" visible="true" weight="0.32985157" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.32985157" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -320,18 +280,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output.txt" />
     <entry file="file://$PROJECT_DIR$/GraphStreamWorkspace.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style.css">
@@ -340,9 +289,6 @@
           <caret column="289" lean-forward="true" selection-start-column="289" selection-end-column="289" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainFrame.form">
-      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -354,17 +300,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainFrame.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="112" column="50" selection-start-line="112" selection-start-column="50" selection-end-line="112" selection-end-column="50" />
+        <state relative-caret-position="372">
+          <caret line="248" column="39" lean-forward="true" selection-start-line="248" selection-start-column="39" selection-end-line="248" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#generateOutput#0;class#App#0" />
             <element signature="method#getNodesNamesList#0;class#App#0" />
             <element signature="method#displaySimpleGraph#0;class#App#0" />
             <element signature="method#displayGraphWithCycles#0;class#App#0" />
-            <element signature="method#main#0;class#App#0" />
           </folding>
         </state>
       </provider>
@@ -375,7 +340,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>GraphStreamWorkspace:jar</last-edited>
+          <last-edited>GraphStreamWorkspace:jar2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
